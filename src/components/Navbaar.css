@@ -1,0 +1,52 @@
+nav {
+    position:fixed;
+    width:100%;
+    display: flex;
+    top:0;  
+    align-items: center; 
+    padding: 1rem 2rem; 
+    background-color: #7463ddc0; 
+    border-bottom: 1px solid #ddd; 
+    justify-content: space-between;
+  }
+  .left{
+    display: flex;
+    justify-content: space-between;
+  }
+  .header{
+    /* margin-left: 80px; */
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+  }
+  ul {
+    width:100%;
+    list-style: none; 
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline; /* Make links display inline */
+    margin-right: 3rem; /* Add spacing between link items */
+    /* text-align: center; */
+    text-decoration: none; /* Remove default underline */
+    color: #000000; /* Link text color */
+    font-weight: bold; /* Emphasize link text */
+  }
+  
+  nav li:hover {
+    cursor: pointer;
+    color: #000; /* Change link color on hover */
+  }
+  .img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+   
+    /* border: 1px solid black; */
+    
+  }
